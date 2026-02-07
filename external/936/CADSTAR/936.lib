@@ -1,0 +1,17 @@
+.936 :1 ;RCA Phono Connectors WH Snapfit 90deg PC Gold Plate .571x.465
+"936"
+*STM J
+*NGS
+*PNM 1=1 2=MH1 3=MH2 4=MH3
+*PLB 1="1" 2="MH1" 3="MH2" 4="MH3"
+*MXP 4
+*DFN 936
+~!Mouser Part Number (534-936)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/936?qs=sZfk%252BfAlGe5vN1AdYHpbDA%3D%3D)
+~!Manufacturer_Name (Keystone Electronics)
+~!Manufacturer_Part_Number (936)
+~!Link Datasheet (https://www.keyelco.com/product-pdf.cfm?p=3142)
+~!Height (12.06mm)
+~!3D_Model (936)
+"936"
+1.1!U 2.1!U 3.1!U 4.1!U 

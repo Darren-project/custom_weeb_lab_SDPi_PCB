@@ -1,0 +1,164 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "936"
+   (description "RCA Phono Connectors WH Snapfit 90deg PC Gold Plate .571x.465")
+   (family "CON")
+   (package "936")
+   (attribute "Datasheet Link" "https://www.keyelco.com/product-pdf.cfm?p=3142")
+   (attribute "Geometry.Height" "12.06mm")
+   (attribute "Mouser Part Number" "534-936")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/936?qs=sZfk%252BfAlGe5vN1AdYHpbDA%3D%3D")
+   (attribute "Manufacturer_Name" "Keystone Electronics")
+   (attribute "Manufacturer_Part_Number" "936")
+   (gate
+    (symbol "936")
+    (pin "1" 1 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+    (pin "MH3" MH3 PS)
+   )
+  )
+  (symbol "936"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "936"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.27 1.27)
+      (pt 5.27 1.27)
+      (pt 5.27 -5.46)
+      (pt -5.27 -5.46)
+      (pt -5.27 1.27))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.082 3.002)
+      (pt 8.082 3.002)
+      (pt 8.082 -14.23)
+      (pt -8.082 -14.23)
+      (pt -8.082 3.002))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 4.165 -5.46)
+      (pt 4.165 -13.23)
+      (pt -4.165 -13.23)
+      (pt -4.165 -5.46))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.165 -5.46)
+      (pt -4.165 -13.23)
+      (pt 4.165 -13.23)
+      (pt 4.165 -5.46))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 5.27 -2.4)
+      (pt 5.27 -5.46)
+      (pt 2.4 -5.46))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.27 -2.4)
+      (pt -5.27 -5.46)
+      (pt -2.4 -5.46))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3 1.27)
+      (pt -1.6 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.6 1.27)
+      (pt 3 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 2.2)
+      (arc (pt 0.000 2.200) (pt -0.050 2.200) (pt 0.050 2.300) (start 180.0) (sweep -90.0))
+      (pt 0 2.3)
+      (arc (pt 0.000 2.300) (pt -0.050 2.200) (pt 0.050 2.300) (start 180.0) (sweep 90.0))
+      (pt 0 2.2))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg MH1 (pt -5.080 0.000) (padstack 0))
+   (leg MH2 (pt 5.080 0.000) (padstack 0))
+   (leg MH3 (pt 0.000 -5.080) (padstack 0))
+   (padstack 0
+    (hole 2.67)
+    (plated true)
+    (pad (layer TCOP) (round 4.005))
+    (pad (layer INNER) (round 4.005))
+    (pad (layer BCOP) (round 4.005))
+   )
+   (padstack 1
+    (hole 1.57)
+    (plated true)
+    (pad (layer TCOP) (square 2.355))
+    (pad (layer INNER) (round 2.355))
+    (pad (layer BCOP) (square 2.355))
+   )
+   (model "936.stp"
+    (euler 0 0 0)
+    (offset 0 -5.570000171661377 5.860000133514404)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=936
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=2.3
+Released=2023-04-08 05:52:13
+Downloaded=2026-02-07 05:46:19
+3D=Y
