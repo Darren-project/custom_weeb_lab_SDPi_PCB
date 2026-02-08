@@ -1,5 +1,8 @@
 # PCB for Weeb Lab's SDPi
 
+## Temp note for HC Reviewers
+Might need to bump up due to needing jlcpcb to global source the Xiao RP2350
+
 ## What does this PCB do
 This PCB features a RP2350 that runs Weeb Lab's [DSPi](https://www.audiosciencereview.com/forum/index.php?threads/introducing-dspi-a-powerful-user-friendly-and-open-source-dsp-for-less-than-a-cup-of-coffee.69343/) which takes in USB Audio from the host pc and allows user to create parametric EQs.
 <br> I added the correct caps and resistors to the outputs so that it can be connected to a output devices.
