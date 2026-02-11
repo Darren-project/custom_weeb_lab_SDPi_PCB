@@ -19,7 +19,7 @@
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
-          "keep_text_aligned": true,
+          "keep_text_aligned": false,
           "suppress_zeroes": false,
           "text_position": 0,
           "units_format": 1
