@@ -1,5 +1,7 @@
 # PCB for Weeb Lab's SDPi
 
+<img width="810" height="850" alt="image" src="https://github.com/user-attachments/assets/36448936-f479-4669-a2ba-ef7b489e69e3" />
+
 ## What does this PCB do
 This PCB features a RP2350 that runs Weeb Lab's [DSPi](https://www.audiosciencereview.com/forum/index.php?threads/introducing-dspi-a-powerful-user-friendly-and-open-source-dsp-for-less-than-a-cup-of-coffee.69343/) which takes in USB Audio from the host pc and allows user to create parametric EQs.
 <br> I added the correct caps and resistors to the outputs so that it can be connected to a output devices.
@@ -13,11 +15,9 @@ Hold the boot button and download the Weeb Lab's DSPi firmware into it.
 BOM: [Link to CSV](https://github.com/Darren-project/custom_weeb_lab_SDPi_PCB/blob/main/production/bom.csv)
 
 PCB Design <br>
-<img width="744" height="761" alt="image" src="https://github.com/user-attachments/assets/101ff0e2-578e-47e1-a332-b7057c847085" />
-
-PCB top view
-<img width="899" height="812" alt="image" src="https://github.com/user-attachments/assets/335b3ead-279a-47d0-82cd-d211d724c4b6" />
+<img width="622" height="636" alt="image" src="https://github.com/user-attachments/assets/66b29d48-b108-4904-a3d9-afb647936c23" />
 
 Schematics
-<img width="1526" height="821" alt="image" src="https://github.com/user-attachments/assets/d8131eba-2876-43cc-ab44-be0e92923197" />
+<img width="1574" height="734" alt="image" src="https://github.com/user-attachments/assets/785f69fa-31d4-4198-970a-e6d4c6da89b7" />
+
 
